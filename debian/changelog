@@ -1,0 +1,5 @@
+linux-upstream (5.15.67-cmsc421-project0-jghorml1+-1) bullseye; urgency=low
+
+  * Custom built Linux kernel.
+
+ -- jghorml1 <jghorml1@Cmsc421.myguest.virtualbox.org>  Tue, 10 Feb 2026 04:10:02 -0500

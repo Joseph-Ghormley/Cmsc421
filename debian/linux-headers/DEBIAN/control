@@ -1,0 +1,13 @@
+Package: linux-headers-5.15.67-cmsc421-project0-jghorml1+
+Source: linux-upstream
+Version: 5.15.67-cmsc421-project0-jghorml1+-1
+Architecture: amd64
+Maintainer: jghorml1 <jghorml1@Cmsc421.myguest.virtualbox.org>
+Installed-Size: 48311
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.15.67-cmsc421-project0-jghorml1+ on amd64
+ This package provides kernel header files for 5.15.67-cmsc421-project0-jghorml1+ on amd64
+ .
+ This is useful for people who need to build external modules
