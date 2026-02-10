@@ -1,3 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>README</title>
+</head>
+<body>
+    <h1>README</h1>
+
+    <h2>Project Overview</h2>
+    <p>This project involves adding custom system calls to a Linux kernel as part of UMBC CMSC 421. In Part 1, a new syscall called <code>hello</code> was implemented, which logs "Hello World!" in the kernel log. In Part 2, a new syscall called <code>data_copy</code> will be implemented to copy data between user space and kernel space.</p>
+
+    <h2>What’s Implemented</h2>
+    <ul>
+        <li>Custom kernel built and installed.</li>
+        <li><code>hello</code> syscall: Prints "Hello World!" to kernel log.</li>
+        <li>User-space test program calls the syscall and checks <code>dmesg</code>.</li>
+    </ul>
+
+    <h2>How to Test</h2>
+    <ol>
+        <li>Boot into the custom kernel via GRUB.</li>
+        <li>Compile the user-space test program:
+            <pre>
+gcc hello_syscall.c -o hello_syscall
+./hello_syscall
+            </pre>
+        </li>
+        <li>Check <code>dmesg</code> for "Hello World!"</li>
+    </ol>
+
+    <h2>Next Steps</h2>
+    <ul>
+        <li>Implement the <code>data_copy</code> syscall as described in Part 4.</li>
+        <li>Add clear error handling for invalid user pointers.</li>
+        <li>Write a user-space program to test <code>data_copy</code>.</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
 Linux kernel
 ============
 
